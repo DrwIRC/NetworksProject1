@@ -4,7 +4,7 @@ serverName = raw_input('Name of Host to Connect to: ')
 serverPort = 12000
 
 #Creates the client socket 
-clientSocket = socket(socket.AF_INET, socket.SOCK_DGRAM)
+clientSocket = socket(AF_INET, SOCK_DGRAM)
 
 #TCP Connection
 clientSocket.connect(serverName, serverPort)
