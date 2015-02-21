@@ -1,6 +1,6 @@
 from socket import *
 
-serverName = input('Name of Host to Connect to: ')
+serverName = raw_input('Name of Host to Connect to: ')
 serverPort = 12000
 
 #Creates the client socket 
