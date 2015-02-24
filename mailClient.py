@@ -12,9 +12,9 @@ sendFrom = raw_input('Send From: ')
 sendTo = raw_input('Send To (Can be multiple separate by a comma only): ')
 Mess = raw_input('Message (Only Text): ')
 
-sender    = sendFrom #'xcsamcxc@gmail.com'
+sender    = sendFrom
 receivers  = sendTo.split(",")
-message   = Mess     #"Hey Malone, I sent this from python!"
+message   = Mess 
 
 #Connect to SMTP
 smtpO = smtplib.SMTP('smtp.gmail.com',25)
