@@ -100,7 +100,7 @@ def main():
         if checker:
 ##          #path = "/~sadovnia/courses/s15/cs305/labs/index1.html"
             cached = find( path.replace("/","") ,curdir)
-            print cached
+            #print cached
             if cached == 1:
                 sendheadrequst(path, serverName)
             else:
